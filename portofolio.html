@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Portofolio Site</title>
+	<title>Portfolio Site</title>
 	<style>
 		body {
 			background-image: url('LATAR.png');
@@ -20,17 +20,32 @@
 			gap: 20px; 
 		}
 
-		.container img {
+		figure {
+			margin: 0;
+			text-align: center;
+			width: 280px;
+		}
+
+		figure img {
 			width: 280px;
 			height: 320px;
 			object-fit: cover;
+			border: 2px solid #ccc; 
+			border-radius: 5px; 
+		}
+
+		capt {
+			margin-top: 10px;
+			font-size: 14px;
+			color: #333; 
+			text-align: left;
 		}
 
 		.button {
 			background-color: #04AA6D;
 			border: none;
 			color: white;
-			width: 75px;  
+			width: 100px;  
 			height: 30px;  
 			text-align: center;
 			text-decoration: none;
@@ -41,24 +56,43 @@
 			display: block;
 			padding: 0; 
 			line-height: 30px; 
+			text-align: center;
+			border-radius: 5px; 
 		}
 
 		h1 {
 			text-align: center;
+			color: #333;
 		}
 	</style>
 </head>
 <body>
+	<br>
 	<br></br>
-	<br></br>
-	<h1>List Portofolio</h1>
+	<h1>Portfolio List</h1>
 	<div class="container">
-		<img src="1.png" alt="1">
-		<img src="2.png" alt="2">
-		<img src="3.png" alt="3">
-		<img src="4.png" alt="4">
-		<img src="5.png" alt="5">
+		<figure>
+			<img src="1.png" alt="1">
+			<capt>15/07/2024, Seekor kucing British Short Hair Campuran bernama Wowong, Sukanya tidur ditangga rumah kalau ga dirak mama sampe kadang mama marah karena wowong ngeberantakkin isi raknya buat dia tempat tidur</capt>
+		</figure>
+		<figure>
+			<img src="2.png" alt="Project 2">
+			<capt>19/06/2012, Seekor kucing British Short Hair Campuran bernama Wowong, Matanya warna oren, hidungnya warna pink, suka banget makan makanan basah dan wowong senang sekali untuk nyakar sofa.</capt>
+		</figure>
+		<figure>
+			<img src="3.png" alt="Project 3">
+			<capt>23/08/2024, Sebuah pemandangan saat senja, bertepatan di Bintaro Exchange, Bintaro. Langit begitu indah, warnanya biru keunguan. Dengan sejuknya angin disore hari, bersama teman terbaik.</capt>
+		</figure>
+		<figure>
+			<img src="4.png" alt="Project 4">
+			<capt>10/07/2024, "Ditempat pertama aku bertemu dengannya", Tempat yang dahulu hanyalah sebuah kuliner makanan kecil hingga sekarang menjadi pusat jajanan sore hari, dibarengi senja (dan dirinya).</capt>
+		</figure>
+		<figure>
+			<img src="5.png" alt="Project 5">
+			<capt>07/07/2024, Peliharaan tetangga yang sering kuliat saat sore hari. Kaka tua itu sangatlah lucu, dan dia selalu menghampiri ku disaat aku mengunjunginya. I wish i know this name of cutest parrot.</capt>
+		</figure>
 	</div>
+
 	<a href="index.html" class="button">CV Online</a>
 </body>
 </html>
